@@ -26,12 +26,27 @@ This software is to be coded in C# and use the Windows .NET Framework libraries.
 ## Conceptual Design
 The Financial Portfolio Manager will be ran only on the Windows opearting system using the .NET framework for its graphical user interface components.  It will display the assets for each investment account that the user adds to it.  The image attached below is the beta design of the Graphical User Interface and shows all of the assets in the top data grid view, and shows your tradingview buy/sell indicators in the bottom data grid view.  
 
-
 <img src="https://i.imgur.com/QxRU2II.png" width="60%">
 
 
 <a name="background"></a>
 ## Background
+For those that are often making trades in the market and have multiple accounts for there assets which makes it hard for them to view them all at the same time, this program will help add those all to one place.  Also TradingView which is one of the mostly used websites for analyzing a market will be integrated so you can view both of them at the same time. 
 
 <a name="resources"></a>
 ## Required Resources
+Visual Studio: https://visualstudio.microsoft.com/, C# Extension
+
+.NET Framework https://dotnet.microsoft.com/en-us/download/dotnet-framework
+
+TradingView API: https://github.com/Mathieu2301/TradingView-API
+
+TradingView Buy/Sell Scripts: https://www.tradingview.com/scripts/buy-sell/
+ 
+##### Languages
+C#, will be mostly used for this project (pulling data, multithreading, proxy support) 
+
+
+Javascript (for tradingview API)
+
+PineScript (for buy/sell indicators)

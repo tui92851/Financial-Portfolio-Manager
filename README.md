@@ -50,3 +50,8 @@ C#, will be mostly used for this project (pulling data, multithreading, proxy su
 Javascript (for tradingview API)
 
 PineScript (for buy/sell indicators)
+
+---
+<img src="https://i.imgur.com/rNbslro.png" width=60%>
+
+
